@@ -1,22 +1,22 @@
-#!/usr/bin/pytho3
+#!/usr/bin/python3
 """
-Depiction: The N sovereigns puzzle is the trial of putting N non-pursuing
-                sovereigns on a N×N chessboard. Make a program that handles the N
-                sovereigns issue.
+   Description: The N queens puzzle is the challenge of placing N non-attacking
+                queens on an N×N chessboard. Write a program that solves the N
+                queens problem.
    Usage: nqueens N:
-          Accepting the client called the program with some unsuitable number of conflicts,
-          print Usage: nqueens N, followed by a different line, and exit with the
+          If the user called the program with the wrong number of arguments,
+          print Usage: nqueens N, followed by a new line, and exit with the
           status 1
-   where N ought to be an entire number more unmistakable or comparable to 4:
-          If N is certainly not an entire number, print N ought to be a number, followed by a new
+   where N must be an integer greater or equal to 4:
+          If N is not an integer, print N must be a number, followed by a new
           line, and exit with the status 1
-          If N is more unassuming than 4, print N ought to be something like 4, followed by a new
+          If N is smaller than 4, print N must be at least 4, followed by a new
           line, and exit with the status 1
-   The program should print each possible response for the issue:
-          One game plan for each line
-          Configuration: see model
-          You don't have to print the plans in a specific solicitation
-   You are essentially allowed to import the sys module
+   The program should print every possible solution to the problem:
+          One solution per line
+          Format: see example
+          You don’t have to print the solutions in a specific order
+   You are only allowed to import the sys module
 """
 
 
