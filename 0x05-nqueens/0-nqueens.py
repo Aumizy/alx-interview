@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-"
+#!/usr/bin/pytho3
+"""
 Depiction: The N sovereigns puzzle is the trial of putting N non-pursuing
                 sovereigns on a N×N chessboard. Make a program that handles the N
                 sovereigns issue.
@@ -17,8 +17,10 @@ Depiction: The N sovereigns puzzle is the trial of putting N non-pursuing
           Configuration: see model
           You don't have to print the plans in a specific solicitation
    You are essentially allowed to import the sys module
-   "
-   import sys
+"""
+
+
+import sys
 
 
 def print_board(board):
